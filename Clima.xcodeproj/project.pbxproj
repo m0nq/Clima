@@ -15,6 +15,7 @@
 		63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF41B99C36100FBF6E0 /* Main.storyboard */; };
 		63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */; };
 		63E28AFF1B99C3B300FBF6E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */; };
+		FCC0C666DD1641A14A9A00AE /* ChangeCityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0CA52F81156C4D9D0EE8E /* ChangeCityDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		63E28AF41B99C36100FBF6E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		FCC0CA52F81156C4D9D0EE8E /* ChangeCityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */,
 				63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */,
 				63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */,
+				FCC0CA52F81156C4D9D0EE8E /* ChangeCityDelegate.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */,
 				63E28AD11B99C32400FBF6E0 /* AppDelegate.swift in Sources */,
 				63E28AF61B99C36100FBF6E0 /* ChangeCityViewController.swift in Sources */,
+				FCC0C666DD1641A14A9A00AE /* ChangeCityDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

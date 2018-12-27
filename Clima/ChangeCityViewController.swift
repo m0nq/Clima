@@ -8,11 +8,6 @@
 
 import UIKit
 
-//Write the protocol declaration here:
-protocol ChangeCityDelegate {
-    func userEnteredANewCityName(city: String)
-}
-
 class ChangeCityViewController: UIViewController {
 
     //Declare the delegate variable here:
