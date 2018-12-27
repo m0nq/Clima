@@ -63,6 +63,13 @@
                                         <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKL-GF-sdM">
+                                        <rect key="frame" x="16" y="360" width="269" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="homeWeatherButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UL8-C7-FW0"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="C11-fU-d6q" firstAttribute="leading" secondItem="VNR-V6-HMc" secondAttribute="leading" constant="16" id="Q0H-HR-SQF"/>
